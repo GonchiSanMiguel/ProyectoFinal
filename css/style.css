@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+body {
+  background-color: black; }
+  body section article {
+    color: white; }
+  body section iframe {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+h1 {
+  font-size: 2.5rem;
+  color: goldenrod;
+  text-decoration: underline;
+  padding: 10px; }
+
+h2 {
+  font-size: 1.7rem;
+  color: white; }
+
+h3 {
+  font-size: 1.5rem;
+  color: whitesmoke; }
+
+main section div {
+  margin-top: 40px;
+  padding: 10px 50px 10px 50px; }
+  main section div img {
+    margin-top: 20px; }
+  main section div p {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    padding: auto;
+    font-family: Quicksand; }
+
+form button a {
+  text-decoration: none;
+  color: white; }
+
+#carta content {
+  padding: auto; }
+  #carta content h1 {
+    text-align: center;
+    margin-top: 20px; }
+  #carta content div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+#error404 {
+  background-color: black; }
+  #error404 h1 {
+    color: whitesmoke; }
+  #error404 p {
+    color: white;
+    margin-left: 10px; }
+
+#logos {
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px 50px 50px 50px;
+  padding: auto; }
+  #logos img {
+    padding: 10px 0px 10px 0px; }
+  #logos img:hover {
+    transform: rotateZ(360deg);
+    cursor: pointer;
+    transition: transform 2s; }
+
+.card {
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: black;
+  background-color: black; }
+
+.card:hover {
+  cursor: pointer;
+  background-color: #DD8D00; }
+
+.btn-primary {
+  background-color: goldenrod;
+  border: none;
+  margin-bottom: 30px; }
+
+#formCV {
+  background-color: #333333; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white; }
+  footer div a {
+    text-decoration: none;
+    margin: 40px;
+    padding: 5px; }
+  footer h3 {
+    font-size: 1.5rem;
+    margin: 30px auto; }
+  footer h4, footer h5 {
+    font-size: 1rem;
+    margin: 50px 10px auto; }
+  footer h5 {
+    margin-bottom: 10px; }

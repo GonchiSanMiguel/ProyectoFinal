@@ -1,0 +1,32 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+//variables
+
+$mainColor: black;
+$secondColor: white;
+$navColor: #CA9E64;
+$thirdColor: goldenrod;
+
+$textXl: 2rem;
+$textLg: 1.5rem;
+$textMd: 1.25rem;
+$textSm: 1rem;
+
+//mixins
+
+@mixin text($font-size,$color){
+	font-size: $font-size;
+	color: $color;
+}
+
+//MAP
+
+$fondoPromos: (
+	fondo1: grey,
+	fondo2: #51400C,
+	fondo3: #584021
+);
+
